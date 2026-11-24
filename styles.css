@@ -233,6 +233,7 @@ textarea{resize:vertical;min-height:70px}
 /* ===== Onboarding ===== */
 .onb{padding:calc(env(safe-area-inset-top) + 40px) 24px 40px;min-height:100vh;display:flex;flex-direction:column}
 .onb .logo{font-size:56px;text-align:center;margin-bottom:8px}
+.onb .logo-img{width:96px;height:96px;border-radius:22px;display:block;margin:0 auto 12px;box-shadow:0 10px 26px rgba(90,60,140,.28)}
 .onb h2{text-align:center;font-size:24px;margin:0 0 6px}
 .onb p.lead{text-align:center;color:var(--muted);margin:0 0 26px;font-size:14px;line-height:1.5}
 .dots{display:flex;gap:6px;justify-content:center;margin-top:auto;padding-top:20px}

@@ -2,7 +2,7 @@
    Correção DEFINITIVA do erro do Safari "Response served by service worker has redirections":
    toda resposta é reconstruída SEM a marca de redirecionamento antes de ser guardada/entregue,
    e a navegação nunca depende de um endereço que o Cloudflare redireciona. */
-const CACHE = 'ministerio-v2';
+const CACHE = 'ministerio-v3';
 const CORE = [
   './',
   './styles.css',

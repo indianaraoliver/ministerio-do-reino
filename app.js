@@ -1102,7 +1102,7 @@ function renderOnboarding(){
   app().innerHTML=`<div class="onb">${steps[onbStep]()}<div class="dots">${steps.map((_,i)=>`<i class="${i<=onbStep?'on':''}"></i>`).join('')}</div></div>`;
   bindOnb();
 }
-function stepWelcome(){ return `<div class="logo">👑</div><h2>Ministério do Reino</h2>
+function stepWelcome(){ return `<img class="logo-img" src="icon-192.png" alt="Ministério do Reino"><h2>Ministério do Reino</h2>
   <p class="lead">Um app feito com carinho para acompanhar seu serviço a Jeová, com fé e organização. 🌸</p>
   <div class="card flat"><div class="small" style="line-height:1.7">
     ⏱️ Cronômetro por modalidade<br>📅 Agenda e calendário<br>🎯 Metas de horas do serviço<br>👥 Estudos e revisitas<br>📊 Equilíbrio no serviço<br>📤 Relatório pelo WhatsApp</div></div>
@@ -1319,7 +1319,7 @@ function renderAuth(){
   chromeEl().innerHTML='';
   const signup = authMode==='signup';
   app().innerHTML = `<div class="onb">
-    <div class="logo">👑</div>
+    <img class="logo-img" src="icon-192.png" alt="Ministério do Reino">
     <h2>Ministério do Reino</h2>
     <p class="lead">${signup?'Crie sua conta — seus dados ficam salvos na nuvem e sincronizados entre aparelhos. ☁️':'Entre para acessar seu serviço. 🌸'}</p>
     <label class="field"><span class="flabel">E-mail</span><input id="au-email" type="email" inputmode="email" autocapitalize="off" placeholder="voce@email.com"></label>
